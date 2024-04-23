@@ -3,6 +3,9 @@
 ## Descrição ℹ️
 Este projeto é uma aplicação web desenvolvida em React com TypeScript e Styled Components para um teste frontend na startup Logaroo.
 
+link do video onde demostro a aplicação rodando: https://youtu.be/gC3nHXTDU04
+link para a aplicação: https://master--logaroo.netlify.app/
+
 ## Como Rodar o Projeto ▶️
 1. Certifique-se de ter o Node.js instalado em sua máquina.
 2. Clone este repositório para o seu computador.
