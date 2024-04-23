@@ -53,3 +53,6 @@ Foi fornecido os links:
 no primeiro link diz: "3: O(A) usuário(a) deve poder utilizar o input de busca para realizar uma busca por um post"
 
 Contudo, no wireframe não tem esse campo de pesquisa. Visando conseguir realizar essa funcionalidade eu criei esse campo.
+
+Por fim, no wireframe fornecido tem um input select, contudo resolvi não implementar o select pois os dados que vêm da api nenhum poderia ser usado para fornecer opções para o usuário, tornando o select inútil da tela.
+os dados da API são somente: id, title, body e userId
