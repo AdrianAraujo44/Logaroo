@@ -3,8 +3,8 @@
 ## Descrição ℹ️
 Este projeto é uma aplicação web desenvolvida em React com TypeScript e Styled Components para um teste frontend na startup Logaroo.
 
-link do video onde demostro a aplicação rodando: https://youtu.be/gC3nHXTDU04
-link para a aplicação: https://logaroo.netlify.app/
+- link do video onde demonstro a aplicação rodando: https://youtu.be/gC3nHXTDU04
+- link para a aplicação: https://logaroo.netlify.app/
 
 ## Como Rodar o Projeto ▶️
 1. Certifique-se de ter o Node.js instalado em sua máquina.
@@ -20,6 +20,7 @@ link para a aplicação: https://logaroo.netlify.app/
 - **Axios**: Utilizado para fazer requisições HTTP.
 - **Tanstack/react-table**: Componente de tabela.
 - **ESLint**: Análise estática para encontrar problemas rapidamente.
+- **Styled-Components**: estilização dos componentes
 
 ## Estrutura do Projeto 📂
 ```plaintext
@@ -46,8 +47,8 @@ Outro ponto, no style guide ele fornece uma cor verde como cor principal, eu ass
 
 Outra observação:
 Foi fornecido os links:
-https://bitbucket.org/logaroodev/frontend/src/master/ 
-https://whimsical.com/logaroo-teste-front-end-8bCv4pDvGgkYLv6QotCKeo
+- https://bitbucket.org/logaroodev/frontend/src/master/ 
+- https://whimsical.com/logaroo-teste-front-end-8bCv4pDvGgkYLv6QotCKeo
 
 no primeiro link diz: "3: O(A) usuário(a) deve poder utilizar o input de busca para realizar uma busca por um post"
 

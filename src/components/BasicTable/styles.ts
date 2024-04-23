@@ -32,7 +32,6 @@ export const TableUI = styled.table`
 
   tbody > tr:hover {
     background-color: #d8d8d8;
-    cursor: zoom-in;
   } 
 `
 
