@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'PingFang-SC';
+  src: url("../assets/fonts/PingFang-SC-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family:'PingFang-SC';
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.modal-open {
+  overflow: hidden;
+}
