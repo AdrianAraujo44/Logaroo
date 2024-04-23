@@ -63,27 +63,30 @@ export const Pagination = styled.div`
 
 export const PaginationButton = styled.button<{active?: boolean}>`
   width:30px;
-    height: 30px;
-    border-radius: 50%;
-    border:none;
-    outline:none;
-    font-size: 14px; 
-    cursor: pointer;
-    background-color: ${props => props.active == true ? '#666' : "transparend"};
-    color: ${props => props.active == true ? '#fff' : "transparend"};
-    
-    &:hover {
-      background-color: #666666;
-      color: #fff;
-    }
+  height: 30px;
+  border-radius: 50%;
+  border:none;
+  outline:none;
+  font-size: 14px; 
+  cursor: pointer;
+  background-color: ${props => props.active == true ? '#666' : "transparend"};
+  color: ${props => props.active == true ? '#fff' : "transparend"};
+  display:flex;
+  align-items:center;
+  justify-content:center;
 
-    &:disabled {
+  &:hover {
+    background-color: #666666;
+    color: #fff;
+  }
+
+  &:disabled {
+    background-color: transparent;
+    border: 1px solid #666;
+    color: #666;
+    &:hover {
       background-color: transparent;
-      border: 1px solid #666;
-      color: #666;
-      &:hover {
-        background-color: transparent;
-      }
     }
+  }
 
 `

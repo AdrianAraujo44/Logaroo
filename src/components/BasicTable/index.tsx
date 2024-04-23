@@ -2,6 +2,8 @@ import { useReactTable, flexRender, getCoreRowModel, getPaginationRowModel, getF
 import { TableUI, ActionButtons, Pagination, Container, PaginationButton } from "./styles"
 import trash from '../../assets/Icons/trash.svg'
 import edit from '../../assets/Icons/edit.svg'
+import arrowLeft from '../../assets/Icons/arrowLeft.svg'
+import arrowRight from '../../assets/Icons/arrowRight.svg'
 import axios from "axios"
 import { usePosts } from "../../Contexts/PostContext"
 import { useState } from "react"
@@ -100,7 +102,7 @@ function BasicTable({ data, columns, filtering, setFiltering }: { data: any, col
         <PaginationButton
           disabled={!table.getCanPreviousPage()}
           className="previous" onClick={() => table.previousPage()}>
-          {'<'}
+          {<img src={arrowLeft} />}
         </PaginationButton>
 
         <PaginationButton
@@ -127,8 +129,8 @@ function BasicTable({ data, columns, filtering, setFiltering }: { data: any, col
           disabled={!table.getCanNextPage()}
           className="next"
           onClick={() => table.nextPage()}>
-          {'>'
-          }</PaginationButton>
+          {<img src={arrowRight} />}
+        </PaginationButton>
       </Pagination>
       <Modal
         isOpen={modalIsOpen}
